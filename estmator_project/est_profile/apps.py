@@ -6,4 +6,4 @@ class ProfileConfig(AppConfig):
     verbose_name = 'Estmator Profile'
 
     def ready(self):
-        import handlers
+        from . import handlers
